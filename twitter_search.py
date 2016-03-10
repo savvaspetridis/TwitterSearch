@@ -3,17 +3,16 @@ twitter_search written by Savvas Petridis
 March 7, 2015
 '''
 
-import requests
 import oauth2 as oauth
 import json
 import sys
 import random
 from urllib import quote
 
-CONSUMER_KEY = 'VU3JTWuHigpWeq5Kka4s8JnVX'
-CONSUMER_SECRET = 'G6ypBQ1ZCsDb6p2MpBo5sY2W0w4BofhcTqIpE61DZT3wO5e5Z1'
-ACCESS_KEY = '706792626188582912-JPkLRQ37BFAjxyZgnp215kjeJMg7aeT'
-ACCESS_SECRET = '2yq7CmyVZj20dmeC36P94C2H7dQSR0ysIK64SJgOW2L6n'
+CONSUMER_KEY = # Enter your consumer_key here!
+CONSUMER_SECRET = # Enter your consumer_secret here!
+ACCESS_KEY = # Enter your access_key here! 
+ACCESS_SECRET = # Enter your access_secret here!
 
 consumer = oauth.Consumer(key=CONSUMER_KEY, secret=CONSUMER_SECRET)
 access_token = oauth.Token(key=ACCESS_KEY, secret=ACCESS_SECRET)
